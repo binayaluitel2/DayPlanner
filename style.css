@@ -1,0 +1,39 @@
+.container {
+  background-color: rgb(13, 49, 71);
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: white;}
+body {
+  background-color: lightseagreen;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  margin-bottom: 10px;
+}
+h1 {
+  text-shadow: 4px 4px black;
+  color: white;
+}
+
+p {
+  text-align: center;
+}
+
+.plannerDiv {
+  border-radius: 25px;
+}
+
+.btn {
+  color: white;
+  background-color: grey;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  margin-left: 6px;
+}
+
