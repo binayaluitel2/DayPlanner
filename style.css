@@ -3,7 +3,8 @@
   border-radius: 25px;
   padding-top: 20px;
   padding-bottom: 5px;
-  color: white;}
+  color: white;
+}
 body {
   background-color: lightseagreen;
   color: white;
@@ -29,6 +30,20 @@ p {
   border-radius: 25px;
 }
 
+.textarea-present {
+  background-color: rgb(236, 84, 84);
+  color: white;
+}
+.textarea-future {
+  background-color: rgb(117, 204, 117);
+  color: white;
+}
+
+.textarea-past {
+  background-color: gray;
+  pointer-events: none;
+  color: white;
+}
 .btn {
   color: white;
   background-color: grey;
@@ -36,4 +51,28 @@ p {
   transition: all 0.3s ease-in-out;
   margin-left: 6px;
 }
+.button-past {
+  background-color: rgb(90, 195, 230);
+  pointer-events: none;
+}
 
+.button-present,
+.button-future {
+  background-color: blue;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .jumbotron {
+    height: 300px;
+  }
+  p {
+    font-size: smaller;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .jumbotron {
+    height: 300px;
+  }
+}
